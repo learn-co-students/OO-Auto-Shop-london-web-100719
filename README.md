@@ -12,7 +12,7 @@ Here's what we need to be able to do.
 
 **CarOwner**
 
-  - Get a list of all owners
+  V- Get a list of all owners
 
   - Get a list of all the cars that a specific owner has
 
@@ -22,7 +22,7 @@ Here's what we need to be able to do.
 
 **Car**
 
-  - Get a list of all cars
+  V- Get a list of all cars
 
   - Get a list of all car classifications
 
@@ -30,7 +30,7 @@ Here's what we need to be able to do.
 
 **Mechanic**
 
-  - Get a list of all mechanics
+  V- Get a list of all mechanics
 
   - Get a list of all cars that a mechanic services
 

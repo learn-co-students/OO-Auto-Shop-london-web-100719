@@ -19,4 +19,10 @@ class CarOwner
 
     end
 
+    def cars
+
+        Car.all.select {|car| car.owner == self}
+        
+    end
+
 end
