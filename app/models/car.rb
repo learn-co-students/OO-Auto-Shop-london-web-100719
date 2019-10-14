@@ -1,7 +1,7 @@
 class Car
 
     attr_reader :make, :model, :classification
-    attr_accessor
+    attr_accessor :owner
 
     @@all = []
 
@@ -18,6 +18,18 @@ class Car
     def self.all
 
         @@all
+        
+    end
+
+    def self.classifications
+
+        Car.all.map {|car| car.classification}
+        
+    end
+
+    def find_a_mechanic
+
+        Mechanic.all.select {|mech| mech.specialty == self.classification}
         
     end
 
